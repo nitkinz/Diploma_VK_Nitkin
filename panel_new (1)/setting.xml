@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<base>
+<NameSarver>localhost</NameSarver>
+<PathExportExcel>D:\\</PathExportExcel>
+<login>DDD</login>
+<number_port>20633</number_port>
+<pass>565656</pass>
+<path_script>D:\\</path_script>
+<path_database>D:\\stnd2\\MSSQL12.SQLDIMAST2\\MSSQL\\DATA\\</path_database>
+<pathGraph>D:\\</pathGraph>
+<userList>Med - 53083705;Mednew - 53083705</userList>
+<stat:1:Mednew_VK>id=53083705;cit=Санкт-Петербург - 12%,Москва - 25%,;countr=Россия - 84%,;</stat:1:Mednew_VK>
+<stat:0:Mednew_VK>id=53083705;png=stat/Chart_0;png=stat/Chart2_0;png=stat/Chart3_0;png=stat/Chart5_0;cit=Санкт-Петербург - 11%,Москва - 23%,;countr=Россия - 83%,;</stat:0:Mednew_VK>
+</base>
