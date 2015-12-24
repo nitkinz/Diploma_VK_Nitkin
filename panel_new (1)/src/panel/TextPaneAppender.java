@@ -344,7 +344,7 @@ public class TextPaneAppender {
     public void vr(Calendar SaveData, String outp) {
 
         try {
-            FileWriter writer5 = new FileWriter(GetData.path_script + "pr5.txt", true);
+            FileWriter writer5 = new FileWriter(GetData.path_script + "logp.txt", true);
             writer5.write(outp);
             System.out.print(outp);
 

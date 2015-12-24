@@ -468,7 +468,7 @@ public class GetData extends javax.swing.JPanel {
                                     return;
                                 }
                                 System.out.println(new java.util.Date());
-                                FileWriter writer5 = new FileWriter(path_script + "pr5.txt", true);
+                                FileWriter writer5 = new FileWriter(path_script + "log.txt", true);
                                 writer5.write(new java.util.Date() + "\n");
                                 writer5.close();
                                 d.del();
@@ -549,7 +549,7 @@ public class GetData extends javax.swing.JPanel {
                                     return;
                                 }
                                 System.out.println(new java.util.Date());
-                                FileWriter writer5 = new FileWriter(path_script + "pr5.txt", true);
+                                FileWriter writer5 = new FileWriter(path_script + "log.txt", true);
                                 writer5.write(new java.util.Date() + "\n");
                                 writer5.close();
                                 d.del();
@@ -816,7 +816,7 @@ public class GetData extends javax.swing.JPanel {
 //               JFrame.setcount();
                 cnt = Integer.parseInt(string);
                 System.out.println("COUNT= " + cnt + "\n");
-                FileWriter writer5 = new FileWriter(path_script + "pr5.txt", true);
+                FileWriter writer5 = new FileWriter(path_script + "log.txt", true);
                 writer5.write("COUNT= " + cnt + "\n");
                 writer5.close();
                 ++ii22;
@@ -1135,7 +1135,7 @@ public class GetData extends javax.swing.JPanel {
     public void vr(Calendar SaveData, String outp) {
 
         try {
-            FileWriter writer5 = new FileWriter(path_script + "pr5.txt", true);
+            FileWriter writer5 = new FileWriter(path_script + "log.txt", true);
             writer5.write(outp);
             System.out.print(outp);
 

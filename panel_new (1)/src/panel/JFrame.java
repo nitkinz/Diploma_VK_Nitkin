@@ -536,7 +536,7 @@ public class JFrame extends javax.swing.JFrame {
                 String string = tnew.main222(stmt, ii22, cnt, massidvrnew, massID);
                 cnt = Integer.parseInt(string);
                 System.out.println("COUNT= " + cnt + "\n");
-                FileWriter writer5 = new FileWriter("D:\\pr5.txt", true);
+                FileWriter writer5 = new FileWriter("D:\\log.txt", true);
                 writer5.write("COUNT= " + cnt + "\n");
                 writer5.close();
                 ++ii22;
@@ -872,7 +872,7 @@ public class JFrame extends javax.swing.JFrame {
     public void vr(Calendar SaveData, String outp) {
 
         try {
-            FileWriter writer5 = new FileWriter("D:\\pr5.txt", true);
+            FileWriter writer5 = new FileWriter("D:\\log.txt", true);
             writer5.write(outp);
             System.out.print(outp);
 
