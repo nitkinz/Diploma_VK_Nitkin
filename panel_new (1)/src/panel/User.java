@@ -20,7 +20,7 @@ public class User implements Serializable {
     public String city;
     public String country;
     public String hidden;
-    public String user_id;
+    public String userId;
 
     public User() {
     }
